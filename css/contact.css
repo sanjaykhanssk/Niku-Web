@@ -1,0 +1,41 @@
+body{
+    background-image: url('../img/dark1.jpg');
+    color: white;
+}
+.container{
+    margin-top:100px;
+    
+}
+
+
+.navbar{
+    background-color: rgb(60, 73, 64);
+}
+
+#results{
+    background-color:darkgray;
+margin-top:200px;
+color:midnightblue;
+opacity:.1;
+
+}
+#results:focus{
+    opacity:1;
+
+}
+.panel{
+    border-color: rgb(0, 224, 253) 3px;
+}
+.col-md-4{
+
+    margin-left:300px; 
+    color: cadetblue;
+}
+#p{
+    margin-left:300px;
+    color:rgb(68, 94, 117) ;
+}
+#speak{
+    position: fixed;
+    left: 1500px;
+}

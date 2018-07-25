@@ -1,0 +1,41 @@
+body{
+    background-image: url('../img/dark1.jpg');
+    color:white;
+}
+.container{
+    margin-top:100px;
+    
+}
+#nikutext{
+    color: bisque;
+    margin-left: 500px;
+}
+
+.navbar{
+    background-color:transparent;
+}
+
+#results{
+    background-color:darkgray;
+margin-top:100px;
+color:midnightblue;
+opacity:.1;
+
+}
+#results:focus{
+    opacity:1;
+
+}
+.col-md-4{
+
+    margin-left:300px;   
+    color: black; 
+} 
+
+.bg-light {
+    opacity: 40%;
+}
+#speak{
+    position: fixed;
+    left: 1500px;
+}

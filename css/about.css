@@ -1,0 +1,38 @@
+body{
+    background-image: url('../img/fern_leaves_plant_124437_3840x2400.jpg');
+    
+    color:white;
+}
+.container{
+    margin-top:100px;
+    
+}
+#nikutext{
+    color: bisque;
+    margin-left: 500px;
+}
+
+.navbar{
+    background-color:transparent;
+}
+#speak{
+    position: fixed;
+    left: 1500px;
+}
+#results{
+    background-color:darkgray;
+margin-top:100px;
+color:midnightblue;
+opacity:.1;
+
+}
+#results:focus{
+    opacity:1;
+
+}
+.col-md-4{
+
+    margin-left:50px;   
+    color: black; 
+    margin-bottom:20px; 
+} 

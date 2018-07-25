@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Khan home</title>
+    <script src="clickbtn.js"></script>
+    <script src='voicerecon.js'></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <!-- <script src="bootstrap/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/switch.css">
+
+
+
+
+</head>
+
+<body onload="clickbtn()">
+    <nav class="navbar navbar-default fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html">SSK</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <button type="button" class="btn btn-outline-success" onclick="recon('readmore')" id='speak'>Speak/Read</button>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <h4 id='nikutext'>Nothing to Read</h4>
+
+        <textarea id="results" class="form-control" cols="80" rows="5" ></textarea>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="clickbtn.js"></script>
+    <script src='voicerecon.js'></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/browser.js"></script>
+    <title>voice recon</title>
+</head>
+
+<body onload="clickbtn()" onload="detectbrow()">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light " style="background-color: #e3f2fd;">
+
+          
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                            <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="post.html">Post</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    
+    
+                  </ul>
+                  <button type="button" class="btn btn btn-outline-success my-2 my-sm-0" onclick="recon('home')" id='speak'>Speak/Read</button>
+                </div>
+            </nav>
+
+
+    <textarea id="results" class="form-control" cols="80" rows="5" ></textarea>
+    <br>
+    <h3>click speak button and say Home page or contact page or about page</h3>
+    <h3>select the text and click read button or select the text and say read </h3>
+    <br>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Khan home</title>
+    <script src="clickbtn.js"></script>
+    <script src='voicerecon.js'></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <!-- <script src="bootstrap/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/switch.css">
+
+
+
+
+</head>
+
+<body onload="clickbtn()">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light " style="background-color: #e3f2fd;">
+
+          
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                            <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="post.html">Post</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    
+    
+                  </ul>
+                  <button type="button" class="btn btn btn-outline-success my-2 my-sm-0" onclick="recon('home')" id='speak'>Speak/Read</button>
+                </div>
+              </nav>
+    
+
+    <div class="container">
+
+        <h4 id='nikutext'>SSK</h4>
+
+
+        <!-- <div class="onoffswitch fixed-top">
+                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="onoff">
+                <label class="onoffswitch-label" for="onoff">
+                <div class="onoffswitch-inner"></div>
+                <div class="onoffswitch-switch"></div>
+                </label>
+        </div>     -->
+        
+        <br>
+
+
+
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="img/myfb1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Sanjay S</h4>
+                    <p class="card-text">Basically Iam a programmer</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button onclick="window.location.href='profile.html'" class="btn btn-outline-info" id='view'> view docs</button>
+
+                        </div>
+                        <small style="color:red">view</small>
+                    </div>         
+               </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="img/fbpics/ivtakeralone.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Taker on Tour</h4>
+                    <p class="card-text">Waited for Darkness but...</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button onclick="window.location.href='post.html'" class="btn btn-outline-info" id='more'> more stories</button>
+
+                        </div>
+                        <small style="color:red">more</small>
+                    </div>         
+               </div>
+            </div>
+        </div>
+
+        <textarea id="results" class="form-control" cols="80" rows="5" ></textarea>
+    </div>
+
+</body>
+
+</html>

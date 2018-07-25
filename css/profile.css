@@ -1,0 +1,13 @@
+body{
+background-image: url('../img/back2.jpg');
+background-repeat:repeat; 
+color: firebrick;
+}
+.col-md-6{ 
+    margin-left:250px;
+    color: black; 
+} 
+#speak{
+    position: fixed;
+    left: 1500px;
+}

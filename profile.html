@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <script src="clickbtn.js"></script>
+    <script src='voicerecon.js'></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <!-- <script src="bootstrap/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="css/home.css">
+
+    <link rel="stylesheet" href="css/profile.css">
+    <!-- <link rel="stylesheet" href="css/switch.css"> -->
+
+
+</head>
+<body onload="clickbtn()">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light " style="background-color: #e3f2fd;">
+
+          
+                
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                            <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ">
+                            <a class="nav-link" href="post.html">Post</a>
+                    </li>
+                    <li class="nav-item active">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    
+    
+                  </ul>
+      <button type="button" class="btn btn-outline-success" onclick="recon('profile')" id='speak'>Speak/Read</button>
+                </div>
+              </nav>
+    
+    
+
+    <div class='container'>
+            <div class="col-md-6" >
+                    <div class="card mb-6 box-shadow" style="color:black">
+                        <img class="card-img-top" src="img/myfb2.jpg" alt="Card image" >
+                        <div class="card-body">
+                            <h4 class="card-title">Sanjay S</h4>
+                            <h5 class="card-text">Basically Iam a programmer</h5>
+                            <br>
+                            <p> i know 
+                                <ul>
+                                    <li> python  </li>
+                                    <li> c++  </li>
+                                    <li> js  </li>
+                                    <li> html/css  </li>
+                                    <li>Inkscape</li>
+                                    <li>gimp</li>
+                                    <li>shotout</li>
+
+                                </ul>
+
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button onclick="window.location.href='home.html'" class="btn btn-outline-info" id='home'>Go Home</button>
+        
+                                </div>
+                                <small style="color:red">home</small>
+                            </div>         
+                       </div>
+                    </div>
+                </div>
+        <textarea class="form-control" id="results" cols="80" rows="5"></textarea>
+    </div>
+
+
+
+
+</body>
+</html>

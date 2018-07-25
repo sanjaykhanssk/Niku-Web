@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap2-toggle.min.css">
+    <title>contact page</title>
+    <script src='voicerecon.js'></script>
+    <script src="clickbtn.js"></script>
+    <script src='js/contact.js'></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel='stylesheet' href="css/contact.css">
+
+
+</head>
+
+<body onload="clickbtn()">
+    
+
+    <!-- <nav class="navbar navbar-default fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html">SSK</a>
+
+            </div>
+            <ul class="nav navbar-nav">
+                    <li ><a href="#">Home</a></li>
+                    <br>
+                    <li><a href="#">About</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                    <li><a href="#">Profile</a></li>
+                
+
+            </ul>
+            <button type="button" class="btn btn-outline-success" onclick="recon('contact')" id='speak'>Speak/Read</button>
+        </div>
+        
+    </nav> -->
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light " style="background-color: #e3f2fd;">
+
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                        <a class="nav-link " href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="post.html">Post</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+               
+
+              </ul>
+   <button type="button" class="btn btn-outline-success" onclick="recon('contact')" id='speak'>Speak/Read</button>
+            </div>
+          </nav>
+
+
+    <div class="container">
+            <textarea class="form-control" id="results" cols="80" rows="5" placeholder="spoken words are inserted here"></textarea>
+
+        <h1>contact us</h1>
+        
+        <h4 id='p'>enter your query here:</h4>
+       
+
+
+
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                
+
+                <div class="card-body">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <br>
+                    <textarea id='message' class="form-control" placeholder="message"></textarea>
+                    <br>
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <button type="button" class="btn btn-outline-dark" id='submit' onclick="btnclicked()">submit</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</html>
