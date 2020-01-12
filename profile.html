@@ -83,6 +83,24 @@
 
 
 
-
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+    <script type="text/javascript">
+        // <--
+        var speechpause=0;
+        function toggleSpeech(){
+          if(speechpause!=1){
+            responsiveVoice.pause();
+            speechpause=1;
+          }else{
+            responsiveVoice.resume();
+            speechpause=0;
+          }
+        }
+        //-->
+    </script>
+    <div style="float:right">
+          
+          <input onclick="toggleSpeech()" type="button" value="||" />
+    </div>
 </body>
 </html>
